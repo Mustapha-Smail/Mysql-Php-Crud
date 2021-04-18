@@ -1,0 +1,115 @@
+html,
+body {
+    height: 100%;
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.collapse {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+.navbar-brand {
+    max-width: 61px;
+    max-height: 61px;
+    padding: 3px;
+}
+
+nav {
+    background-color: #4a69bd;
+    height: 80px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+nav a {
+    font-size: x-large;
+}
+
+.fa {
+    font-size: x-large;
+    padding-right: 5px;
+}
+
+.header {
+    background-color: black;
+    background-image: url("../images/img.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-content {
+    color: whitesmoke;
+}
+
+footer {
+    margin: 0;
+    padding-top: 10px;
+    background-color: #4a69bd;
+    color: whitesmoke;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.d-flex {
+    padding: 20px;
+}
+
+.content {
+    width: 45%;
+    font-size: large;
+}
+
+div p {
+    font-size: large;
+}
+
+.image-container {
+    position: relative;
+    width: 40%;
+    margin: 0;
+}
+
+
+.text-btn,
+.text-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer .container {
+    padding: 0;
+}
+
+.decouvrir {
+    background-color: #4a69bd;
+    color: white
+}
+
+.sql {
+    border: 1px solid black;
+    padding-top: 15px;
+    background: grey;
+    color: white;
+}
